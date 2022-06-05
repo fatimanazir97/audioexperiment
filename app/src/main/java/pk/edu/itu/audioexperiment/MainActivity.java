@@ -6,6 +6,7 @@ import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
@@ -13,6 +14,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
     Handler handler = new Handler();
     Runnable runnable;
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +62,15 @@ public class MainActivity extends AppCompatActivity {
 
         //reading location
 
-
+        //buttonShow
+        btn = findViewById(R.id.btnshow);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, addInLL.class);
+                startActivity(intent);
+            }
+        });
 
         //assign variable
         playerPosition = findViewById(R.id.player_position);
