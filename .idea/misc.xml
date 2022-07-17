@@ -3,8 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/debug/res/layout/activity_maps2.xml" value="0.12708333333333333" />
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/debug/res/layout/activity_mapstest.xml" value="0.1" />
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/drawable/gradient.xml" value="0.26614583333333336" />
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/drawable/ic_play.xml" value="0.26614583333333336" />
         <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/layout/activity_add_in_ll.xml" value="0.11666666666666667" />
-        <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/layout/activity_location_lost.xml" value="0.2" />
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/layout/activity_location_markers.xml" value="0.1" />
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/layout/activity_shadow.xml" value="0.536" />
         <entry key="..\:/Mobile App Development/audioexperiment/app/src/main/res/layout/interestingspots.xml" value="0.21927083333333333" />
       </map>
     </option>
